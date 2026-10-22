@@ -4,7 +4,7 @@ import time
 
 # Connect to Kafka inside Docker
 bootstrap_servers = "kafka:9092"
-topic = "bootcamp-events-prod"
+topic = "web-events"
 
 print("🔌 Connecting to Kafka at", bootstrap_servers + "...")
 

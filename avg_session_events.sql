@@ -11,6 +11,6 @@ FROM (
     FROM sessionized_events
     GROUP BY session_id, host
 ) AS session_counts
-WHERE host IN ('zachwilson.techcreator.io', 'zachwilson.tech', 'lulu.techcreator.io')
+WHERE host IN ('site-a.example.com', 'site-b.example.com', 'site-c.example.com')
 GROUP BY host
 ORDER BY host;

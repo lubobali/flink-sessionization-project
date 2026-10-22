@@ -12,6 +12,6 @@ event = {
     "event_time": "2023-09-01T12:00:00.000Z"
 }
 
-producer.send('bootcamp-events-prod', event)
+producer.send('web-events', event)
 producer.flush()
 print("✅ Event sent!")

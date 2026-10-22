@@ -33,11 +33,11 @@ Replace with your actual hostname, port, username, and database as needed.
 
 - The output will show average web events per session grouped by host, e.g.:
 
-  host                     | average_events_per_session
-  ------------------------------------------------------
-  zachwilson.techcreator.io | 4.5
-  zachwilson.tech           | 3.8
-  lulu.techcreator.io       | 5.2
+  host               | average_events_per_session
+  ------------------------------------------------
+  site-a.example.com | 4.5
+  site-b.example.com | 3.8
+  site-c.example.com | 5.2
 
 - Verify these numbers align with your data and confirm correct sessionization by IP and host with a 5-minute gap.
 

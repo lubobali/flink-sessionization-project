@@ -49,7 +49,7 @@ def log_aggregation():
         WATERMARK FOR event_timestamp AS event_timestamp - INTERVAL '5' SECOND
     ) WITH (
         'connector' = 'kafka',
-        'topic' = 'bootcamp-events-prod',
+        'topic' = 'web-events',
         'properties.bootstrap.servers' = 'kafka:9092',
         'properties.group.id' = 'web-events',
         'scan.startup.mode' = 'earliest-offset',

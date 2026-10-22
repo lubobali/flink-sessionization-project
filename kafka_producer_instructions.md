@@ -7,7 +7,7 @@ This document consolidates the role and usage of the Kafka producer scripts used
 ## Scripts Included
 
 - **send_event.py**  
-  A Python script that produces web event messages to the Kafka topic `bootcamp-events-prod`. It simulates real user events by sending JSON-formatted records with fields such as `ip`, `host`, `event_time`, and others.
+  A Python script that produces web event messages to the Kafka topic `web-events`. It simulates real user events by sending JSON-formatted records with fields such as `ip`, `host`, `event_time`, and others.
 
 - **send_test_event.py**  
   A simplified test producer that sends a single or a few controlled events to Kafka. Useful for quick connectivity tests or debugging specific scenarios.
